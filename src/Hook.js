@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import ReactDOM from "react-dom";
-
-
-function JustAnotherCounter() {
+/* eslint-disable */ 
+function Example() {
   const [count, setCount] = useState(0);
 
   // Similar to componentDidMount and componentDidUpdate:
@@ -20,6 +18,3 @@ function JustAnotherCounter() {
     </div>
   );
 }
-
-const rootElement = document.getElementById("root");
-ReactDOM.render(<JustAnotherCounter />, rootElement);
